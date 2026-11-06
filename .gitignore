@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data (Raw / large files if needed)
+data/processed/*.parquet
+data/processed/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
